@@ -1,0 +1,200 @@
+body {
+
+  margin: 0;
+
+  font-family: 'Helvetica Neue', sans-serif;
+
+  background-color: #f8f4ec;
+
+  color: #1d2b3a;
+
+}
+
+header, section, footer {
+
+  padding: 2rem;
+
+  text-align: center;
+
+}
+
+header {
+
+  background-color: #1d2b3a;
+
+  color: white;
+
+}
+
+header h1 {
+
+  margin: 0;
+
+  font-size: 2.5rem;
+
+}
+
+header p {
+
+  margin: 0.5rem 0 0;
+
+  font-size: 1.2rem;
+
+}
+nav {
+
+  background-color: #1d2b36;
+
+  padding: 10px 0;
+
+  text-align: center;
+
+}
+
+nav ul {
+
+  list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+nav li {
+
+  display: inline-block;
+
+  margin: 0 15px;
+
+}
+
+nav a {
+
+  text-decoration: none;
+
+  color: #ffffff;
+
+  font-weight: bold;
+
+  font-size: 16px;
+
+  transition: color 0.3s ease;
+
+}
+
+nav a:hover {
+
+  color: #f0c674;
+
+}
+
+section {
+
+  border-bottom: 1px solid #ddd;
+
+}
+
+h2 {
+
+  color: #1d2b3a;
+
+}
+
+.service-card {
+
+  max-width: 600px;
+
+  margin: 1rem auto;
+
+  padding: 1rem;
+
+  border: 1px solid #ccc;
+
+  border-radius: 10px;
+
+  background-color: white;
+
+}
+
+.contact {
+
+  font-size: 1rem;
+
+  line-height: 1.6;
+
+}
+.next {
+
+  right: 0;
+
+  border-radius: 3px 0 0 3px;
+
+}
+
+.prev:hover, .next:hover {
+
+  background-color: rgba(0,0,0,0.6);
+
+}
+
+@media (max-width: 768px) {
+
+  header h1 {
+
+    font-size: 2rem;
+
+  }
+
+  .service-card {
+
+    margin: 1rem 0.5rem;
+
+  }
+
+}
+#reservation {
+  padding: 30px;
+  background-color: #f9f9f9;
+}
+
+#reservation h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #1d2b36;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #f0c674;
+  color: #1d2b36;
+}
